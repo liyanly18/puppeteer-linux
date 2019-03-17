@@ -1,0 +1,5 @@
+APP_NAME="puppeteer-linux"
+APP_VERSION="1.0.0"
+APP_PORT=7080
+APP_ENV="dev"
+APP_PROXY=""
