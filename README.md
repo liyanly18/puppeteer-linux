@@ -1,6 +1,6 @@
 # Puppeteer-linux
 
-Puppeteer docker image.
+[Puppeteer docker image](https://hub.docker.com/r/liyanlab/puppeteer-linux).
 
 ## Installation
 
