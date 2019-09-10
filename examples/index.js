@@ -1,9 +1,10 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-  let args = ['--no-sandbox', '--disable-setuid-sandbox'];
-
-  const browser = await puppeteer.launch({ args: args });
+  const args = {
+    executablePath: '/usr/bin/chromium-browser'
+  };
+  const browser = await puppeteer.launch(args);
   const page = await browser.newPage();
   await page.goto('https://example.com/');
 
