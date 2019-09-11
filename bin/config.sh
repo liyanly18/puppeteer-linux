@@ -1,4 +1,4 @@
 APP_NAME="puppeteer-linux"
 APP_VERSION="2.0.0"
-APP_PORT=7080
+APP_PORT=19605
 APP_PROXY=""
