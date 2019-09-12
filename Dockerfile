@@ -27,6 +27,6 @@ RUN addgroup -S pptruser && adduser -S -g pptruser pptruser \
   && chown -R pptruser:pptruser /home/pptruser/app
 
 # Run everything after as non-privileged user.
-USER pptruser
+#USER pptruser
 
 COPY ./examples ./examples

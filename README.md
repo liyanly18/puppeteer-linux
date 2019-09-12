@@ -8,10 +8,18 @@
 docker pull liyanlab/puppeteer-linux
 ```
 
-## Usage
+## Example
 
 ```
 sh bin/start.sh
+```
+
+## Usage
+The puppeteer images provide the `pptruser` user as an unprivileged user, the user can be activated in the `Dockerfile`:
+```
+FROM liyanlab/puppeteer-linux:latest
+...
+USER pptruser
 ```
 
 ## License
