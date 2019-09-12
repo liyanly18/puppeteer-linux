@@ -15,6 +15,8 @@ RUN apk add --no-cache \
 
 WORKDIR /home/pptruser/app
 
+COPY package*.json ./
+
 # Tell Puppeteer to skip installing Chrome. We'll be using the installed package.
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
